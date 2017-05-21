@@ -110,6 +110,10 @@ export default class CommentBox extends React.Component {
     }
 }
 
+CommentBox.propTypes = {
+    apiUrl: React.PropTypes.string.isRequired
+};
+
 
 
 
